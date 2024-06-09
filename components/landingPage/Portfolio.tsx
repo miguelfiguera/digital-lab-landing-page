@@ -5,19 +5,19 @@ export default function Portfolio() {
   let PlaceHolder = "https://placehold.co/300x200";
 
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
-      <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
-        <div className="space-y-3">
-          <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-            Our Clients
-          </h2>
-          <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            We&apos;ve had the privilege of working with a diverse range of
-            clients across various industries.
-          </p>
-        </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
-          <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
+<section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+  <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
+    <div className="space-y-3">
+      <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+        Our Clients
+      </h2>
+      <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+        We&apos;ve had the privilege of working with a diverse range of
+        clients across various industries.
+      </p>
+    </div>
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-3 gap-3 place-items-center">
+          <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2 dark:bg-gray-900">
             <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
               <span className="sr-only">View</span>
             </Link>
@@ -29,7 +29,7 @@ export default function Portfolio() {
               className="aspect-[2/1] object-contain p-4 w-full"
             />
           </div>
-          <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
+          <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2 dark:bg-gray-900">
             <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
               <span className="sr-only">View</span>
             </Link>
@@ -41,7 +41,7 @@ export default function Portfolio() {
               className="aspect-[2/1] object-contain p-4 w-full"
             />
           </div>
-          <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
+          <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2 dark:bg-gray-900">
             <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
               <span className="sr-only">View</span>
             </Link>
@@ -53,7 +53,7 @@ export default function Portfolio() {
               className="aspect-[2/1] object-contain p-4 w-full"
             />
           </div>
-          <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
+          <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2 dark:bg-gray-900">
             <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
               <span className="sr-only">View</span>
             </Link>
@@ -65,7 +65,7 @@ export default function Portfolio() {
               className="aspect-[2/1] object-contain p-4 w-full"
             />
           </div>
-          <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
+          <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2 dark:bg-gray-900">
             <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
               <span className="sr-only">View</span>
             </Link>
@@ -77,7 +77,7 @@ export default function Portfolio() {
               className="aspect-[2/1] object-contain p-4 w-full"
             />
           </div>
-          <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2">
+          <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2 dark:bg-gray-900">
             <Link href="#" className="absolute inset-0 z-10" prefetch={false}>
               <span className="sr-only">View</span>
             </Link>

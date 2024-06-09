@@ -86,7 +86,7 @@ export default function Footer() {
     <footer className="flex flex-col gap-2 py-6 w-full shrink-0 items-center px-4 md:px-6 border-t lg:bg-gray-100 dark:bg-gray-800">
       <div className="container max-w-7xl grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 text-sm">
         <div className="grid gap-1">
-          <h3 className="font-semibold">Company</h3>
+          <h3 className="font-semibold ">Company</h3>
           <Link href="#" prefetch={false}>
             About Us
           </Link>
