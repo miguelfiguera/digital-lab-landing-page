@@ -18,8 +18,8 @@ export default function ContactForm() {
             </p>
           </div>
         </div>
-        <div className="mx-auto w-full max-w-md space-y-4 ">
-          <form className="grid gap-4 border-solid border-gray-100">
+        <div className="mx-auto w-full max-w-md space-y-4 border-solid rounded-lg border mt-8 border-gray-100 p-4">
+          <form className="grid gap-4   ">
             <input
               type="text"
               placeholder="Name"
