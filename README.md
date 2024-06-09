@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DigitalLab
 
-## Getting Started
+DigitalLab es una agencia de marketing digital que presta diversos servicios pertinentes a la industria:
 
-First, run the development server:
+1. Manejo de RRSS
+2. Analisis de data
+3. Diseño gráfico
+4. Email Marketing
+5. Desarrollo Para Móvil
+6. Análisis de Mercado.
+7. Campañas de Ads para RRSS.
+8. Análisis del Negocio.
+9. Networking.
+10. Entrenar al personal.
+11. Procesamiento y análisis de Data.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features de la App.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+La aplicación web para digitalLab requiere elementos sencillos:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Recoger leads
+2. Registrar proyectos y fechas de corte de nuestros clientes para gestionar notificaciones de cobro de ser necesario y manejo de pagos.
+3. Manejo de proveedores de productos y servicios (listado y registro creado desde fuera de la app, solo debe mostrar quienes estan).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Para la primera, con un formulario basta. Para la segunda es necesario un panel administrativo que muestre información pertinente de los clientes de acuerdo a las necesidades de la empresa.
 
-## Learn More
+**Como un feature extra**
 
-To learn more about Next.js, take a look at the following resources:
+Agregaré una serie de botones que permitan mostrar la página en diferentes paletas de color. Simplemente por moneria.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Base de datos.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Firebase y sus servicios para autenticación y probablemente emails también.
 
-## Deploy on Vercel
+### Schema tentativo:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Para este punto, revisar interfaces.ts**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
