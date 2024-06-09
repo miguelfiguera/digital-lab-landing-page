@@ -8,13 +8,11 @@ import Portfolio from "@/components/landingPage/Portfolio";
 export default function Home() {
   return (
     <div>
-
       <Hero />
       <Services />
       <Highlights />
       <Portfolio />
       <ContactForm />
-
     </div>
   );
 }
